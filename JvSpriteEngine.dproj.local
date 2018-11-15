@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/06/03 05:17:15.000.783,=rtl.dcp</Transaction>
+    <Transaction>2018/11/13 23:10:01.000.401,=rtl.dcp</Transaction>
+    <Transaction>2018/11/13 23:42:11.000.971,C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Package1.dproj=E:\DelphiProjects\Jv SpriteEngine\JvSpriteEngine.dproj</Transaction>
+    <Transaction>2018/11/13 23:42:38.000.351,=E:\DelphiProjects\Jv SpriteEngine\JvSpriteEngine.pas</Transaction>
+    <Transaction>2018/11/14 01:21:39.000.799,=C:\Jv SpriteEngine\DSE_threadtimer.pas</Transaction>
+    <Transaction>2018/11/14 03:09:02.000.316,=C:\Jv SpriteEngine\Unit1.pas</Transaction>
+    <Transaction>2018/11/14 18:21:42.000.838,=C:\Jv SpriteEngine\Jvmisc.pas</Transaction>
+    <Transaction>2018/11/14 18:24:26.000.876,C:\Jv SpriteEngine\Jvmisc.pas=</Transaction>
+    <Transaction>2018/11/14 19:22:55.000.258,=vcl.dcp</Transaction>
+    <Transaction>2018/11/14 19:39:49.000.835,C:\Jv SpriteEngine\DSE_threadtimer.pas=C:\Jv SpriteEngine\ira_threadtimer.pas</Transaction>
+    <Transaction>2018/11/14 19:40:52.000.645,C:\Jv SpriteEngine\ira_threadtimer.pas=C:\Jv SpriteEngine\threadtimer.pas</Transaction>
+  </Transactions>
+</BorlandProject>

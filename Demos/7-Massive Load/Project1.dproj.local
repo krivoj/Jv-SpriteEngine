@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/04/03 23:41:04.000.816,=C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/03 23:46:24.000.015,=C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/03 23:46:51.000.905,=C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/06 04:02:23.000.089,=C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/15 04:01:37.000.599,=C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/05/01 07:28:04.000.106,=C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/05/18 23:34:44.000.133,=C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/05/22 21:51:53.000.323,=C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/12/02 01:45:46.000.881,=C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/01/05 01:15:19.000.997,=C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/01/11 19:31:48.000.234,=C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/02/26 05:42:59.000.384,=C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/04/08 01:31:53.000.471,=C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/05/19 22:28:35.000.476,=C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/05/19 23:23:49.000.490,=C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/05/19 23:31:10.000.418,=C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/05/20 00:07:33.000.244,=C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/05/21 01:45:03.000.547,=C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/06/03 18:10:52.000.862,=C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/06/03 18:12:14.000.881,C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit1.dfm=E:\DelphiProjects\SE\Demos\SpriteAnimation\Unit1.dfm</Transaction>
+    <Transaction>2018/06/03 18:12:14.000.881,C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Unit1.pas=E:\DelphiProjects\SE\Demos\SpriteAnimation\Unit1.pas</Transaction>
+    <Transaction>2018/06/03 18:12:35.000.897,C:\Users\Gabriele\Documents\Embarcadero\Studio\Projects\Project1.dproj=E:\DelphiProjects\SE\Demos\SpriteAnimation\Project1.dproj</Transaction>
+    <Transaction>2018/06/03 22:38:44.000.022,E:\DelphiProjects\SE\Demos\SpriteMove\Project1.dproj=E:\DelphiProjects\SE\Demos\SpriteMove\Project1.dproj</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Unit1.pas"/>
+    <File Path="Unit1.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

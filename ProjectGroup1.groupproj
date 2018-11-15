@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{86ED33F7-D6D2-468E-AAD8-CE4181B64402}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="JvSpriteEngine.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Demos\7-Massive Load\Project1.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="JvSpriteEngine">
+        <MSBuild Projects="JvSpriteEngine.dproj"/>
+    </Target>
+    <Target Name="JvSpriteEngine:Clean">
+        <MSBuild Projects="JvSpriteEngine.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="JvSpriteEngine:Make">
+        <MSBuild Projects="JvSpriteEngine.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project1">
+        <MSBuild Projects="Demos\7-Massive Load\Project1.dproj"/>
+    </Target>
+    <Target Name="Project1:Clean">
+        <MSBuild Projects="Demos\7-Massive Load\Project1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project1:Make">
+        <MSBuild Projects="Demos\7-Massive Load\Project1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="JvSpriteEngine;Project1"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="JvSpriteEngine:Clean;Project1:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="JvSpriteEngine:Make;Project1:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
