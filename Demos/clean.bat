@@ -5,3 +5,4 @@ del *.elf /s /q
 del *.dll /s /q
 del *.el /s /q
 del *.jdbg /s/q
+del *.local /s/q
