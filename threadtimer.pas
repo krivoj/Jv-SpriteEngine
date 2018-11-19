@@ -17,17 +17,13 @@ type
     FInterval: Cardinal;
     FKeepAlive: Boolean;
     FOnTimer: TNotifyEvent;
-    {$IFDEF MSWINDOWS}
     FPriority: TThreadPriority;
-    {$ENDIF MSWINDOWS}
     FStreamedEnabled: Boolean;
     FThread: TThread;
     procedure SetEnabled(const Value: Boolean);
     procedure SetInterval(const Value: Cardinal);
     procedure SetOnTimer(const Value: TNotifyEvent);
-    {$IFDEF MSWINDOWS}
     procedure SetPriority(const Value: TThreadPriority);
-    {$ENDIF MSWINDOWS}
     procedure SetKeepAlive(const Value: Boolean);
   protected
     procedure DoOnTimer;
@@ -168,9 +164,7 @@ constructor ira_ThreadTimer.Create(AOwner: TComponent);
 begin
   inherited Create(AOwner);
   FInterval := 1000;
-  {$IFDEF MSWINDOWS}
   FPriority := tpNormal;
-  {$ENDIF MSWINDOWS}
 end;
 
 destructor ira_ThreadTimer.Destroy;
