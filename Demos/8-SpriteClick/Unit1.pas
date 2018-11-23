@@ -13,12 +13,15 @@ type
     Button2: TButton;
     JvTheater1: TJvTheater;
     Timer1: TTimer;
+    Memo1: TMemo;
     procedure FormCreate(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Timer1Timer(Sender: TObject);
     procedure JvTheater1SpriteDestinationReached(Sender: TObject; ASprite: TJvSprite);
     procedure JvTheater1BeforeRender(Sender: TObject; VirtualBitmap: TBitmap);
+    procedure JvTheater1SpriteMouseDown(Sender: TObject; lstSprite: TObjectList<JvSpriteEngine.TJvSprite>; Button: TMouseButton;
+      Shift: TShiftState);
   private
     { Private declarations }
     function GetIsoDirection (X1,Y1,X2,Y2:integer): integer;
@@ -123,6 +126,18 @@ begin
   aSprite.MoverData.UseMovePath := True;
 
 end;
+
+procedure TForm1.JvTheater1SpriteMouseDown(Sender: TObject; lstSprite: TObjectList<JvSpriteEngine.TJvSprite>; Button: TMouseButton;
+  Shift: TShiftState);
+var
+  i: Integer;
+begin
+  for I :=  0 to lstSprite.Count -1 do begin
+    memo1.Lines.Add( 'Sprite ' + lstSprite[i].Guid + ' clicked!');
+  end;
+
+end;
+
 
 procedure TForm1.Button1Click(Sender: TObject);
 var

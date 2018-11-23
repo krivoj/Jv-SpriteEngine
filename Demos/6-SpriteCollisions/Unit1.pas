@@ -85,7 +85,7 @@ begin
   if SpriteGabriel <> nil then
     SpriteGabriel.Priority := SpriteGabriel.Position.Y;
   if SpriteShahira <> nil then
-    SpriteShahira.Priority := SpriteGabriel.Position.Y;
+    SpriteShahira.Priority := SpriteShahira.Position.Y;
 
     SpriteTree.Priority := SpriteTree.Position.Y + 170;
 
