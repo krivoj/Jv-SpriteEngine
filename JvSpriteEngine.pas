@@ -73,7 +73,6 @@ type
     FOnSpriteMouseMove: TJvSpriteMouseMoveEvent;
     FOnSpriteMouseDown: TJvSpriteMouseEvent;
     FOnSpriteMouseUp: TJvSpriteMouseEvent;
-    FOnSpriteClick: TJvSpriteMouseEvent;
 
     // Thread
     FAnimationInterval: integer;
@@ -181,7 +180,6 @@ type
     property OnBeforeRender: TJvTheaterEvent read FBeforeRender write FBeforeRender;
     property OnAfterRender: TJvTheaterEvent read FAfterRender write FAfterRender;
 
-    property OnSpriteClick: TJvSpriteMouseEvent read FOnSpriteClick write FOnSpriteClick;
     property OnSpriteMouseMove: TJvSpriteMouseMoveEvent read FOnSpriteMouseMove write FOnSpriteMouseMove;
     property OnSpriteMouseDown: TJvSpriteMouseEvent read FOnSpriteMouseDown write FOnSpriteMouseDown;
     property OnSpriteMouseUp: TJvSpriteMouseEvent read FOnSpriteMouseUp write FOnSpriteMouseUp;
@@ -2016,8 +2014,6 @@ begin
     end;
 
 
-    if (Button = mbLeft) and ( Assigned( FOnSpriteClick ))  and (lstSpriteClicked.Count > 0)
-      then  FOnSpriteClick( self, lstSpriteClicked, Button, Shift);
     if Assigned( FOnSpriteMouseUp ) and (lstSpriteClicked.Count > 0)
       then  FOnSpriteMouseUp( self, lstSpriteClicked , Button, Shift );
 

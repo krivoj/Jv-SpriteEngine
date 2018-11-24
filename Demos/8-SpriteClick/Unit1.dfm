@@ -1,7 +1,7 @@
 object Form1: TForm1
   Left = 0
   Top = 0
-  Caption = 'JvSpriteEngine - SpriteLabels '
+  Caption = 'JvSpriteEngine - SpriteClick'
   ClientHeight = 722
   ClientWidth = 1032
   Color = clBtnFace
