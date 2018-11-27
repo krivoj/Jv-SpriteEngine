@@ -23,7 +23,7 @@ object Form1: TForm1
     AnimationInterval = 20
     CollisionDelay = 0
     ShowPerformance = False
-    OnSpriteClick = JvTheater1SpriteClick
+    OnSpriteMouseDown = JvTheater1SpriteMouseDown
     ClickSprites = True
     ClickSpritesPrecise = False
     CollisionPrecisePixel = False

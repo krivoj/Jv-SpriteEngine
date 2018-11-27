@@ -10,7 +10,7 @@ type
   TForm1 = class(TForm)
     JvTheater1: TJvTheater;
     procedure FormCreate(Sender: TObject);
-    procedure JvTheater1SpriteClick(Sender: TObject; lstSprite: TObjectList<JvSpriteEngine.TJvSprite>; Button: TMouseButton;
+    procedure JvTheater1SpriteMouseDown(Sender: TObject; lstSprite: TObjectList<JvSpriteEngine.TJvSprite>; Button: TMouseButton;
       Shift: TShiftState);
   private
     { Private declarations }
@@ -48,7 +48,7 @@ begin
 
 
 end;
-procedure TForm1.JvTheater1SpriteClick(Sender: TObject; lstSprite: TObjectList<JvSpriteEngine.TJvSprite>; Button: TMouseButton;
+procedure TForm1.JvTheater1SpriteMouseDown(Sender: TObject; lstSprite: TObjectList<JvSpriteEngine.TJvSprite>; Button: TMouseButton;
   Shift: TShiftState);
 var
   SpriteGabriel, SpriteShahira: TJvSprite;
@@ -81,8 +81,6 @@ begin
       SpriteShahira.ChangeBitmap('..\..\..\!media\shahira_IDLE.6.bmp',{framesX}15,{framesY}1,{Delay}5);
     end
 
-
 end;
-
 
 end.

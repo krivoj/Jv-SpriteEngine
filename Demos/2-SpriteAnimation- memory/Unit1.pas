@@ -11,7 +11,7 @@ type
   TForm1 = class(TForm)
     JvTheater1: TJvTheater;
     procedure FormCreate(Sender: TObject);
-    procedure JvTheater1SpriteClick(Sender: TObject; lstSprite: TObjectList<JvSpriteEngine.TJvSprite>; Button: TMouseButton;
+    procedure JvTheater1SpriteMouseDown(Sender: TObject; lstSprite: TObjectList<JvSpriteEngine.TJvSprite>; Button: TMouseButton;
       Shift: TShiftState);
   private
     { Private declarations }
@@ -56,7 +56,7 @@ begin
 
 
 end;
-procedure TForm1.JvTheater1SpriteClick(Sender: TObject; lstSprite: TObjectList<JvSpriteEngine.TJvSprite>; Button: TMouseButton;
+procedure TForm1.JvTheater1SpriteMouseDown(Sender: TObject; lstSprite: TObjectList<JvSpriteEngine.TJvSprite>; Button: TMouseButton;
   Shift: TShiftState);
 var
   SpriteGabriel, SpriteShahira: TJvSprite;
@@ -88,7 +88,6 @@ begin
       SpriteGabriel.FrameY := 6;
       SpriteShahira.FrameY := 6;
     end
-
 
 end;
 
